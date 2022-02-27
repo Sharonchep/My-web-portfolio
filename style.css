@@ -2,7 +2,9 @@
 *{
    padding:1%; 
    margin 1%;
-   box-sizing: border-box;  
+   box-sizing: border-box;
+   padding-top: 3px;  
+   padding-bottom: 3px;
 }
 .mean-score{
     float:right;
