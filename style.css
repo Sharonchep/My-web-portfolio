@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+body{
+    background-color: aquamarine;
+}
+.nav ul{
+    margin: o;
+}
+.nav li{
+    display: inline;
+}
+.nav a{
+    
+    display: inline-block;
+    padding: 4em;
+    color: navy;
+    text-decoration: none;
+}
+.nav a:hover{
+    background-color: white;
+}
+*{
+    box-sizing: border-box;
+}
+.main nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight:lighter;
+    border-bottom: 1px solid yellowgreen;
+}
+.main.nav li{
+    padding: o 5%;
+}
+.band-name{
+    text-align: center;
+}
+
+
+
