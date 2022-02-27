@@ -1,39 +1,73 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+*{
+   padding:0%; 
+   margin 0%;
+   box-sizing: border-box;  
+}
+.mean-score{
+    float:right;
+    border-radius: 60%;
+    height: 600px;
+    width: 500px;
+}
+.name{
+    background-color:rgb(150, 165, 160);
+}
 body{
-    background-color: aquamarine;
+    background-color:peachpuff;
 }
-.nav ul{
-    margin: o;
+nav{
+    display:flex:block;
+    align-items:center;
+    justify-content:space between;
+    padding-top:10px;
+    padding-left:8%;
+    paddimg-right:8%;
 }
-.nav li{
-    display: inline;
+
+span{
+    color: black;
+    align-items: center;
 }
-.nav a{
-    
+nav ul li{
+    list-style:none;
     display: inline-block;
-    padding: 4em;
-    color: navy;
+    padding: 10px 30px;
+}
+nav ul li a:{
+    color: white;
     text-decoration: none;
 }
-.nav a:hover{
-    background-color: white;
+nav ul li a:hover{
+    color:#f9004d
+    transition: .4s;
 }
-*{
-    box-sizing: border-box;
+.btn:hover{
+    transform: scale(1.1)
 }
-.main nav{
+.content{
+    position: initial;
+}   
+h2{
+    color:navy:
+    margin:20px 0px 20px;
+    font-size:70;
+    font-size:50px;
+}
+h3{
+    color:darkred;
+    font-size: 25px;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+h4{
+    color: darkgreen;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+#active{
+    display: inline;
+    font-size: 30px;
     text-align: center;
-    font-size: 1.1em;
-    font-weight:lighter;
-    border-bottom: 1px solid yellowgreen;
 }
-.main.nav li{
-    padding: o 5%;
-}
-.band-name{
-    text-align: center;
-}
-
-
-
