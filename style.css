@@ -23,7 +23,6 @@
 body{
     background-color:peachpuff;
     padding-top: 0%;
-    page-break-inside: avoid;
 }
 nav{
     display:flex:block;
